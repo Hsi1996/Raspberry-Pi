@@ -65,7 +65,7 @@
 3. 選擇 SD 卡儲存裝置
 4. 點擊右上角「齒輪圖示」進階設定
    - 設定主機名稱
-   - 開啟 SSH
+   - 開啟 SSH 
    - 設定使用者名稱與密碼
    - 填入 Wi-Fi 名稱與密碼
 5. 點擊 `WRITE` 開始燒錄
@@ -82,6 +82,7 @@
 2. 等待開機完成
 3. 使用終端機打以下程式碼確認樹梅派連到同一網域:
 ping 樹梅派名稱@帳號名稱
+
 4. 使用 SSH 遠端連線：
 ```bash
 ssh 你的使用者名稱@樹梅派IP
@@ -92,4 +93,15 @@ sudo apt upgrade -y
 開啟進階設定工具:
 sudo raspi-config
 
+確認是否開啟ssh
+
+
+開啟VNC Viewer
+
+
 可開啟相機、擴充 SD 卡容量、調整記憶體分配、啟用 VNC 等。
+
+下載安裝(CNV Viewer)[https://www.realvnc.com/en/connect/download/combined-mobile/]
+
+輸入帳號名稱 (無須登入)
+
