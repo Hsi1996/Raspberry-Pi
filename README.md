@@ -105,11 +105,11 @@ sudo raspi-config
 
 ![步驟一](README.md/images/model.png)
 
-![步驟二](https://github.com/Hsi1996/Raspberry-Pi/blob/main/images/saaets/open_vnc.png)
+![步驟二](REAGME.md/images/open_vnc.png)
 
 可開啟相機、擴充 SD 卡容量、調整記憶體分配、啟用 VNC 等。
 
-下載安裝(CNV Viewer)[https://www.realvnc.com/en/connect/download/combined-mobile/]
+下載安裝 [CNV Viewer](https://www.realvnc.com/en/connect/download/combined-mobile/)
 
  (VNC Viewer 無須登入)
 ![搜尋欄上打帳號](https://github.com/Hsi1996/Raspberry-Pi/blob/main/images/saaets/VNC.png)
