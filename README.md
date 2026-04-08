@@ -99,7 +99,7 @@ sudo raspi-config
 
 ##開啟VNC Viewer
 
-![步驟一](https://github.com/Hsi1996/Raspberry-Pi/blob/main/images/saaets/model.png)
+![步驟一](README.md/images/model.png)
 
 ![步驟二](https://github.com/Hsi1996/Raspberry-Pi/blob/main/images/saaets/open_vnc.png)
 
