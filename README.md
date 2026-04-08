@@ -84,7 +84,7 @@ ping 樹梅派名稱@帳號名稱
 
 4. 使用 SSH 遠端連線：
 ```bash
-ssh 你的使用者名稱@樹梅派IP
+ssh 你的使用者名稱@登入帳號(EX:pi@xxxxxx)
 (燒錄時請確認是否開啟ssh)
 
 基礎系統更新:
@@ -95,12 +95,16 @@ sudo apt upgrade -y
 sudo raspi-config
 
 開啟VNC Viewer
-![步驟一]()
+![步驟一](https://github.com/Hsi1996/Raspberry-Pi/blob/main/images/saaets/model.png)
 
+![步驟二](https://github.com/Hsi1996/Raspberry-Pi/blob/main/images/saaets/open_vnc.png)
 
 可開啟相機、擴充 SD 卡容量、調整記憶體分配、啟用 VNC 等。
 
 下載安裝(CNV Viewer)[https://www.realvnc.com/en/connect/download/combined-mobile/]
 
-輸入帳號名稱 (無須登入)
+ (VNC Viewer 無須登入)
+![搜尋欄上打帳號](https://github.com/Hsi1996/Raspberry-Pi/blob/main/images/saaets/VNC.png)
+
+![輸入帳號名稱及密碼](https://github.com/Hsi1996/Raspberry-Pi/blob/main/images/saaets/ID_password.png)
 
