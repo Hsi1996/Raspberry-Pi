@@ -37,7 +37,7 @@
 - **Raspberry Pi 5**：效能更強，適合 AI 與多工負載
 - **Raspberry Pi Zero 2 W**：超微型 IoT 裝置
 
-![樹梅派外觀示意圖](https://www.raspberrypi.com/app/uploads/2024/09/DSC_0025-1-1024x683.jpg)
+![樹梅派外觀示意圖](README.md/images/raspberry5.jpg)
 *圖片來源：Raspberry Pi 官方*
 
 ---
