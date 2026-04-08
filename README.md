@@ -87,6 +87,8 @@ ping 樹梅派名稱@帳號名稱
 ssh 你的使用者名稱@登入帳號(EX:pi@xxxxxx)
 (燒錄時請確認是否開啟ssh)
 
+
+
 基礎系統更新:
 sudo apt update
 sudo apt upgrade -y
@@ -94,7 +96,9 @@ sudo apt upgrade -y
 開啟進階設定工具:
 sudo raspi-config
 
-開啟VNC Viewer
+
+##開啟VNC Viewer
+
 ![步驟一](https://github.com/Hsi1996/Raspberry-Pi/blob/main/images/saaets/model.png)
 
 ![步驟二](https://github.com/Hsi1996/Raspberry-Pi/blob/main/images/saaets/open_vnc.png)
