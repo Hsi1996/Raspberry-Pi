@@ -85,19 +85,23 @@ ping 樹梅派名稱@帳號名稱
 4. 使用 SSH 遠端連線：
 ```bash
 ssh 你的使用者名稱@登入帳號(EX:pi@xxxxxx)
+```
 (燒錄時請確認是否開啟ssh)
 
 
 
 基礎系統更新:
+```bash
 sudo apt update
 sudo apt upgrade -y
+```
 
 開啟進階設定工具:
+```bash
 sudo raspi-config
+```
 
-
-##開啟VNC Viewer
+##方法一:VNC Viewer
 
 ![步驟一](README.md/images/model.png)
 
@@ -112,3 +116,30 @@ sudo raspi-config
 
 ![輸入帳號名稱及密碼](https://github.com/Hsi1996/Raspberry-Pi/blob/main/images/saaets/ID_password.png)
 
+##方法二:SSH（推薦，無需顯示器）
+
+1. **確認 Raspberry Pi 的 IP 位址**：
+
+**在樹莓派上**（如果有顯示器）：
+```bash
+hostname -I
+```
+
+**在路由器管理介面**：
+- 登入路由器管理頁面（通常是 `192.168.1.1`）
+- 查看已連接裝置列表
+
+**使用網路ping工具**：
+```bash
+# macOS/Linux/Windows
+ping 你的ip或hostname
+
+```
+
+2. **SSH 連線**：
+```bash
+ssh 使用者名稱@樹莓派IP位址
+# 例如：ssh pi@192.168.1.100
+```
+
+3. **輸入密碼**：首次連線會詢問是否信任主機，輸入 `yes`，然後輸入密碼
