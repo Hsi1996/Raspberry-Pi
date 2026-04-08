@@ -57,7 +57,7 @@
 ### 3.1 下載官方燒錄工具
 使用 Raspberry Pi Imager 燒錄系統最穩定。
 
-👉 [官方下載連結](sslocal://flow/file_open?url=https%3A%2F%2Fwww.raspberrypi.com%2Fsoftware%2F&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
+👉 [官方下載連結](https://www.raspberrypi.com/software/)
 
 ### 3.2 燒錄步驟
 1. 開啟 Imager
@@ -72,8 +72,7 @@
 
 ![Imager 燒錄示意](https://www.raspberrypi.com/app/uploads/2021/10/Imager-Screenshot-1024x576.png)
 
-### 3.3 系統映像檔官方連結
-👉 [Raspberry Pi OS 下載頁](sslocal://flow/file_open?url=https%3A%2F%2Fwww.raspberrypi.com%2Fsoftware%2Foperating-systems%2F&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
+
 
 ---
 
